@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Demo from "./components/Demo";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import "./App.css";
 
@@ -13,6 +14,8 @@ const App = () => {
       <div className='app'>
         <Hero />
         <Demo />
+
+        <SpeedInsights/>
       </div>
     </main>
   );
