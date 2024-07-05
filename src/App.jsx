@@ -9,6 +9,8 @@ import "./App.css";
 const App = () => {
   return (
     <main>
+      <Analytics />
+      <SpeedInsights/>
       <div className='main'>
         <div className='gradient' />
       </div>
@@ -17,8 +19,6 @@ const App = () => {
         <Hero />
         <Demo />
 
-        <SpeedInsights/>
-        <Analytics />
       </div>
     </main>
   );
